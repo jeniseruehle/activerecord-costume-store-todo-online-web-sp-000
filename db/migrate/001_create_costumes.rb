@@ -1,13 +1,13 @@
-# class CreateCostumes < ActiveRecord::Migration
+class CreateCostumes < ActiveRecord::Migration
   
-#   def change 
-#     create_table :costumes do |t|
-#       t.string :name
-#       t.integer :price
-#       t.string :size 
+  def change 
+    create_table :costumes do |t|
+      t.string :name
+      t.integer :price
+      t.string :size 
       
-#     end 
-#   end 
+    end 
+  end 
   
   
   
