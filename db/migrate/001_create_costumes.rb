@@ -1,4 +1,4 @@
-class Costumes < ActiveRecord::Migration
+class CreateCostumes < ActiveRecord::Migration
   
   
   
